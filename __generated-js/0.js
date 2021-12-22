@@ -50,7 +50,7 @@ function error(user) {
 				"`\nMessage: " +
 				user.message +
 				"`\nCron: " +
-				"5 * * * *" +
+				"1/5 * * * *" +
 				"`\nIndex: " +
 				"0",
 		});
