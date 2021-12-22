@@ -2,7 +2,7 @@ name: SCHEDULED WORKFLOW [[cron]]
 on:
     schedule:
         - cron: "[[cron]]"
-    workflow-dispatch:
+    workflow_dispatch:
 
 jobs:
     run:
