@@ -1,7 +1,7 @@
-name: SCHEDULED WORKFLOW * * * * *
+name: SCHEDULED WORKFLOW 5 * * * *
 on:
     schedule:
-        - cron: "* * * * *"
+        - cron: "5 * * * *"
 
 jobs:
     run:
