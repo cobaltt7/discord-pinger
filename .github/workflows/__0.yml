@@ -1,7 +1,7 @@
-name: SCHEDULED WORKFLOW 46 3 * * *
+name: SCHEDULED WORKFLOW 48 3 * * *
 on:
     schedule:
-        - cron: "46 3 * * *"
+        - cron: "48 3 * * *"
 
 jobs:
     run:
