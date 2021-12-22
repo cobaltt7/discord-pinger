@@ -1,0 +1,38 @@
+name: SCHEDULED WORKFLOW * * * * *
+on:
+    schedule:
+        - cron: "* * * * *"
+
+jobs:
+    run:
+        name: Run
+        runs-on: ubuntu-20.04
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2.3.5
+              with:
+                  ref: ${{ github.ref }}
+                  token: ${{ secrets.TOKEN }}
+
+            - name: Setup Node.JS
+              uses: actions/setup-node@v2.4.1
+              with:
+                  node-version: 16
+                  cache: "npm"
+
+            - name: Install
+              run: npm install
+
+            - name: Run
+              run: node .generated-js/0.js
+
+            - name: Commit
+              uses: stefanzweifel/git-auto-commit-action@v4.12.0
+              with:
+                  commit_message: "Lint and format code"
+                  branch: ${{ github.head_ref }}
+                  commit_options: "--signoff"
+                  commit_user_name: RedGuy12
+                  commit_user_email: RedGuy12@users.noreply.github.com
+                  commit_author: RedGuy12 <RedGuy12@users.noreply.github.com>
