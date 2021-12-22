@@ -29,7 +29,8 @@ Discord.once("ready", async () => {
 	.on("warn", console.warn)
 	.on("error", console.error);
 
-Discord.login(process.env.BOT_TOKEN);
+const tokenIndex=	process.argv.findIndex(e=>e==="token:")+1
+Discord.login(tokenIndex?process.argv[tokenIndex]:process.env.BOT_TOKEN);
 
 function error(user) {
 	return async (error) => {
