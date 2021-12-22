@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const info = JSON.parse('[{"user":"914999467286093844","message":"hi"}]');
+const info = JSON.parse('[{"user":"771422735486156811","message":"<#577433123462053888>"}]');
 
 const Discord = new Client({
 	intents: [intents.FLAGS.DIRECT_MESSAGES, intents.FLAGS.GUILDS],
@@ -50,7 +50,7 @@ function error(user) {
 				"`\nMessage: " +
 				user.message +
 				"`\nCron: " +
-				"48 3 * * *" +
+				"0 0 * * *" +
 				"`\nIndex: " +
 				"0",
 		});
