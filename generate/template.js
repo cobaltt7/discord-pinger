@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const info = JSON.parse("[[info]]");
+const info = JSON.parse('[["info]]');
 
 const Discord = new Client({
 	intents: [intents.FLAGS.DIRECT_MESSAGES, intents.FLAGS.GUILDS],
@@ -32,7 +32,7 @@ Discord.once("ready", async () => {
 Discord.login(process.env.BOT_TOKEN);
 
 function error(user) {
-	return (error) => {
+	return async (error) => {
 		(await Discord.users.fetch("914999467286093844")).send({
 			content:
 				"ERROR:\n```js\n" +
