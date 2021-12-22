@@ -2,6 +2,7 @@ name: SCHEDULED WORKFLOW [[cron]]
 on:
     schedule:
         - cron: "[[cron]]"
+    workflow-dispatch:
 
 jobs:
     run:
@@ -25,7 +26,7 @@ jobs:
               run: npm install
 
             - name: Run
-              run: node .generated-js/[[index]].js
+              run: node __generated-js/[[index]].js
 
             - name: Commit
               uses: stefanzweifel/git-auto-commit-action@v4.12.0
