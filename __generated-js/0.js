@@ -51,7 +51,7 @@ function error(user) {
 				"`\nMessage: " +
 				user.message +
 				"`\nCron: " +
-				"0 0 * * *" +
+				"0 23 * * *" +
 				"`\nIndex: " +
 				"0",
 		});
