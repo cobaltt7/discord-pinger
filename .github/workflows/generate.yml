@@ -1,6 +1,7 @@
 name: Generate
 on:
     push:
+        branches: [master]
 
 jobs:
     run:
