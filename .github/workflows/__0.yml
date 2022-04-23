@@ -1,7 +1,7 @@
-name: SCHEDULED WORKFLOW 0 23 * * *
+name: SCHEDULED WORKFLOW 30 23 * * *
 on:
     schedule:
-        - cron: "0 23 * * *"
+        - cron: "30 23 * * *"
     workflow_dispatch:
 
 jobs:
