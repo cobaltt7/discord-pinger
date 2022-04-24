@@ -1,5 +1,5 @@
 {
-	"45 23 * * *": [{ "user": "771422735486156811", "message":{content: "<#577433123462053888>"} }}],
+	"45 23 * * *": [{ "user": "771422735486156811", "message":{content: "<#577433123462053888>"} }],
 	"13 5 7 10 *": [{ "user": "771422735486156811", "message": {content: "Happy birthday!"} }],
 	"00 12 * * *": [{ "channel": "966706770812764260", "message": {content: "(replying to https://discord.com/channels/828680792519606380/966706770812764260/967553253111898182):\nYes, but of what?\n\n@everyone here's your hint now get solving\nif you don't want pings, you can unreact in <#883922462704807956>, but then you lose access to the channel...deal with it" }}]
 ,	"* * * * *": [{ "channel": "901225174974726177", "message": {content: "(replying to https://discord.com/channels/828680792519606380/966706770812764260/967553253111898182):\nYes, but of what?\n\n@everyone here's your hint now get solving\nif you don't want pings, you can unreact in <#883922462704807956>, but then you lose access to the channel...deal with it" }}]
