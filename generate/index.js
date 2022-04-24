@@ -15,17 +15,17 @@ const config = JSON.parse(
 );
 const configEntries = Object.entries(config);
 
-async function emptyDir(dirToEmpty, keep) {
+async function emptyDir(dirToEmpty, keep = []) {
 	for (const file of await fileSystem.readdir(
 		path.resolve(dir, "../" + dirToEmpty),
 	)) {
-		if (file !== keep)
+		if (!keep.includes(file))
 			fileSystem.unlink(path.resolve(dir, "../" + dirToEmpty, file));
 	}
 }
 
 await Promise.all([
-	emptyDir(".github/workflows", "generate.yml"),
+	emptyDir(".github/workflows", ["generate.yml", "qotd.yml"]),
 	emptyDir(GENERATED_JS_DIR),
 ]);
 
