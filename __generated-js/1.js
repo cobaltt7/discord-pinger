@@ -30,8 +30,9 @@ Discord.once("ready", async () => {
 const tokenIndex=	process.argv.findIndex(e=>e==="token:")+1
 Discord.login(tokenIndex?process.argv[tokenIndex]:process.env.BOT_TOKEN);
 
-async function error(user) {
-	return await	(await Discord.users.fetch("914999467286093844")).send({
+function error(user) {
+	return async (error) => {
+		(await Discord.users.fetch("914999467286093844")).send({
 			content:
 				"ERROR:\n```js\n" +
 				JSON.stringify(error) +
@@ -52,4 +53,6 @@ async function error(user) {
 				"`\nIndex: " +
 				"1",
 		});
+		return undefined;
+	};
 }
