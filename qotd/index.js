@@ -20,7 +20,7 @@ Discord.once("ready", async () => {
 	console.log(`Connected to Discord with ID`, Discord.application?.id);
 const msg=	await	(await Discord.channels.fetch("965682181169086474"))
 				?.send({content: "<@&965682387533070466>\n**"+chosen.question+"**"+(chosen.comment?"\n"+chosen.comment:"")})
-if(chosen.publish??true)await chosen.crosspost();
+if(chosen.publish??true)await msg.crosspost();
 	for (const reaction of chosen.reactions) {
 		await msg.react(reaction);
 	}
