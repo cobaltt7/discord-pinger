@@ -17,10 +17,9 @@ const Discord = new Client({
 
 Discord.once("ready", async () => {
 	console.log(`Connected to Discord with ID`, Discord.application?.id);
-	const promises = [];
-			(await Discord.channels.fetch("901225174974726177"))
+	await	(await Discord.channels.fetch("901225174974726177"))
 				?.send({content: config[Math.floor(Math.random() * config.length)]})
-	Discord.destroy();
+await	Discord.destroy();
 })
 	.on("disconnect", () => console.warn("Disconnected from Discord"))
 	.on("debug", console.debug)
