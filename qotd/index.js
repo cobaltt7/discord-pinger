@@ -5,7 +5,6 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const dir = path.dirname(fileURLToPath(import.meta.url));
-/** @type {{[key:string]:{}}} */
 const config = JSON.parse(
 	await fileSystem.readFile(path.resolve(dir, "./todo.json")),
 );
@@ -19,8 +18,9 @@ const index=Math.floor(Math.random() * config.length)
 config.splice(index, 1);
 Discord.once("ready", async () => {
 	console.log(`Connected to Discord with ID`, Discord.application?.id);
-const msg=	await	(await Discord.channels.fetch("901225174974726177"))
+const msg=	await	(await Discord.channels.fetch("965682181169086474"))
 				?.send({content: "<@&965682387533070466>\n**"+chosen.question+"**"+(chosen.comment?"\n"+chosen.comment:"")})
+if(chosen.publish??true)await chosen.crosspost();
 	for (const reaction of chosen.reactions) {
 		await msg.react(reaction);
 	}
