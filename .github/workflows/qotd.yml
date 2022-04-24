@@ -31,7 +31,7 @@ jobs:
             - name: Commit
               uses: stefanzweifel/git-auto-commit-action@v4.12.0
               with:
-                  commit_message: "Lint and format code"
+                  commit_message: "Remove QOTD"
                   branch: ${{ github.head_ref }}
                   commit_options: "--signoff"
                   commit_user_name: RedGuy12
