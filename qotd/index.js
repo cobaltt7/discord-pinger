@@ -17,8 +17,16 @@ const Discord = new Client({
 
 Discord.once("ready", async () => {
 	console.log(`Connected to Discord with ID`, Discord.application?.id);
-	await	(await Discord.channels.fetch("901225174974726177"))
-				?.send({content: config[Math.floor(Math.random() * config.length)]})
+	const chosen=config[Math.floor(Math.random() * config.length)]
+const msg=	await	(await Discord.channels.fetch("901225174974726177"))
+				?.send({content: "<@965682387533070466>\n**"+chosen.question+"**"+(chosen.comment?"\n"+chosen.comment:"")})
+	for (const reaction of chosen.reactions) {
+		await message.react(reaction);
+	}
+	await msg.startThread({
+			autoArchiveDuration: 1_440, // 24 hours
+			name: chosen.question
+		});
 await	Discord.destroy();
 })
 	.on("disconnect", () => console.warn("Disconnected from Discord"))
