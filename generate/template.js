@@ -15,9 +15,7 @@ Discord.once("ready", async () => {
 	for (const user of info) {
 		promises.push(
 			(await Discord[user.user?"users":"channels"].fetch(user.user||user.channel).catch(error(user)))
-				?.send({
-					content: user.message,
-				})
+				?.send(user.message)
 				.catch(error(user)),
 		);
 	}
