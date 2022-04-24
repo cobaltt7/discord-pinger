@@ -5,7 +5,7 @@
   {"question":"What's your favorite color?","reactions":["⚪","🔴","🟠","🟤","🟡","🟢","🔵","🟣","⚫"],"comment":"💻 Desktop app\\n🌐 Website\\n📱 Mobile"},
   {"question":"If a horse walked up to you, randomly spoke one sentence, and then never spoke again, what is the most unsettling thing it could say?","reactions":[]},
     {"question":"What’s the weirdest text or DM you’ve received recently?","reactions":[]},
-    {"question":"Which system of measurement do you prefer, Metric or Imperial?","reactions":[":regional_indicator_m:"+":regional_indicator_i:"],"comment":":regional_indicator_m: Metric\\n:regional_indicator_i: Imperial"},
+    {"question":"Which system of measurement do you prefer, Metric or Imperial?","reactions":[":regional_indicator_m:",":regional_indicator_i:"],"comment":":regional_indicator_m: Metric\\n:regional_indicator_i: Imperial"},
     {"question":"What random GIFs do you have laying around?","reactions":[]},
     {"question":"What hobbies do you have?","reactions":[]},
     {"question":"What do you say when people ask for one fact about you?","reactions":[]},
