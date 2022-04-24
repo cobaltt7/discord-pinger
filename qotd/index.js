@@ -14,10 +14,11 @@ dotenv.config();
 const Discord = new Client({
 	intents: [intents.FLAGS.DIRECT_MESSAGES, intents.FLAGS.GUILDS],
 });
-
+const index=Math.floor(Math.random() * config.length)
+	const chosen=config[index]
+config.splice(index, 1);
 Discord.once("ready", async () => {
 	console.log(`Connected to Discord with ID`, Discord.application?.id);
-	const chosen=config[Math.floor(Math.random() * config.length)]
 const msg=	await	(await Discord.channels.fetch("901225174974726177"))
 				?.send({content: "<@965682387533070466>\n**"+chosen.question+"**"+(chosen.comment?"\n"+chosen.comment:"")})
 	for (const reaction of chosen.reactions) {
@@ -36,3 +37,4 @@ await	Discord.destroy();
 
 const tokenIndex=	process.argv.findIndex(e=>e==="token:")+1
 await Discord.login(tokenIndex?process.argv[tokenIndex]:process.env.BOT_TOKEN);
+await fileSystem.writeFile(path.resolve(dir, "./todo.json"), JSON.stringify(config),"utf8")
