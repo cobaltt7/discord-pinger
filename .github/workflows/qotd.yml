@@ -29,7 +29,7 @@ jobs:
               run: "node qotd/index.js token: ${{ secrets.BOT_TOKEN }} --trace-warnings --harmony"
 
             - name: Commit
-              uses: stefanzweifel/git-auto-commit-action@v4.12.0
+              uses: stefanzweifel/git-auto-commit-action@v4.14.1
               with:
                   commit_message: "Remove QOTD"
                   branch: ${{ github.head_ref }}
