@@ -15,8 +15,8 @@
 		"start": "node . --trace-warnings --harmony"
 	},
 	"dependencies": {
-		"discord.js": "^13.2.0",
-		"dotenv": "^10.0.0"
+		"discord.js": "13.2.0",
+		"dotenv": "10.0.0"
 	},
 	"keywords": [
 		"discord",
@@ -32,6 +32,6 @@
 		"url": "git+https://github.com/RedGuy12/discord-pinger.git"
 	},
 	"devDependencies": {
-		"mustache": "^4.2.0"
+		"mustache": "4.2.0"
 	}
 }
