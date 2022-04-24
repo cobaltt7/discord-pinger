@@ -20,7 +20,7 @@ config.splice(index, 1);
 Discord.once("ready", async () => {
 	console.log(`Connected to Discord with ID`, Discord.application?.id);
 const msg=	await	(await Discord.channels.fetch("901225174974726177"))
-				?.send({content: "<@965682387533070466>\n**"+chosen.question+"**"+(chosen.comment?"\n"+chosen.comment:"")})
+				?.send({content: "<@&965682387533070466>\n**"+chosen.question+"**"+(chosen.comment?"\n"+chosen.comment:"")})
 	for (const reaction of chosen.reactions) {
 		await msg.react(reaction);
 	}
