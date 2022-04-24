@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const info = JSON.parse('[{"user":"771422735486156811","message":{"content":"Happy birthday!"}}]');
+const info = JSON.parse('[{"channel":"901225174974726177","message":{"content":"(replying to https://discord.com/channels/828680792519606380/966706770812764260/967553253111898182):\nYes, but of what?\n\n@everyone here's your hint now get solving\nif you don't want pings, you can unreact in <#883922462704807956>, but then you lose access to the channel...deal with it"}}]');
 
 const Discord = new Client({
 	intents: [intents.FLAGS.DIRECT_MESSAGES, intents.FLAGS.GUILDS],
@@ -51,9 +51,9 @@ function error(user) {
 				"`\nMessage: " +
 				user.message +
 				"`\nCron: " +
-				"13 5 7 10 *" +
+				"* * * * *" +
 				"`\nIndex: " +
-				"1",
+				"3",
 		});
 		return undefined;
 	};

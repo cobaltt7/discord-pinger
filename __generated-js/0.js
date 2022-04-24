@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const info = JSON.parse('[{"user":"771422735486156811","message":"<#577433123462053888>"}]');
+const info = JSON.parse('[{"user":"771422735486156811","message":{"content":"<#577433123462053888>"}}]');
 
 const Discord = new Client({
 	intents: [intents.FLAGS.DIRECT_MESSAGES, intents.FLAGS.GUILDS],
@@ -14,7 +14,7 @@ Discord.once("ready", async () => {
 	const promises = [];
 	for (const user of info) {
 		promises.push(
-			(await Discord.users.fetch(user.user).catch(error(user)))
+			(await Discord[user.user?"users":"channels"].fetch(user.user||user.channel).catch(error(user)))
 				?.send({
 					content: user.message,
 				})
