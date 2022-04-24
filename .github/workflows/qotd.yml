@@ -1,7 +1,7 @@
 name: QOTD
 on:
-    # schedule:
-    #     - cron: "* * * * *"
+    schedule:
+        - cron: "0 12 * * *"
     workflow_dispatch:
 
 jobs:
