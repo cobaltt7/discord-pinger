@@ -18,9 +18,8 @@ const Discord = new Client({
 Discord.once("ready", async () => {
 	console.log(`Connected to Discord with ID`, Discord.application?.id);
 	const promises = [];
-			(await Discord.channels.fetch("901225174974726177").catch(error()))
+			(await Discord.channels.fetch("901225174974726177"))
 				?.send({content: config[Math.floor(Math.random() * config.length)]})
-				.catch(error(user))
 	Discord.destroy();
 })
 	.on("disconnect", () => console.warn("Disconnected from Discord"))
@@ -30,30 +29,3 @@ Discord.once("ready", async () => {
 
 const tokenIndex=	process.argv.findIndex(e=>e==="token:")+1
 Discord.login(tokenIndex?process.argv[tokenIndex]:process.env.BOT_TOKEN);
-
-function error(user) {
-	return async (error) => {
-		(await Discord.users.fetch("914999467286093844")).send({
-			content:
-				"ERROR:\n```js\n" +
-				JSON.stringify(error) +
-				"\n```\nMessage: `" +
-				error.message +
-				"`\nStack: `" +
-				error.stack +
-				"`\nCode: `" +
-				error.code +
-				"`\nName: `" +
-				error.name +
-				"`\n\nUser: " +
-				user.user +
-				"`\nMessage: " +
-				user.message +
-				"`\nCron: " +
-				"45 23 * * *" +
-				"`\nIndex: " +
-				"0",
-		});
-		return undefined;
-	};
-}
