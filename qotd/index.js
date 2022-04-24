@@ -22,7 +22,7 @@ Discord.once("ready", async () => {
 const msg=	await	(await Discord.channels.fetch("901225174974726177"))
 				?.send({content: "<@965682387533070466>\n**"+chosen.question+"**"+(chosen.comment?"\n"+chosen.comment:"")})
 	for (const reaction of chosen.reactions) {
-		await message.react(reaction);
+		await msg.react(reaction);
 	}
 	await msg.startThread({
 			autoArchiveDuration: 1_440, // 24 hours
@@ -37,4 +37,4 @@ await	Discord.destroy();
 
 const tokenIndex=	process.argv.findIndex(e=>e==="token:")+1
 await Discord.login(tokenIndex?process.argv[tokenIndex]:process.env.BOT_TOKEN);
-await fileSystem.writeFile(path.resolve(dir, "./todo.json"), JSON.stringify(config),"utf8")
+await fileSystem.writeFile(path.resolve(dir, "./todo.json"), JSON.stringify(config,null,"	"),"utf8")
