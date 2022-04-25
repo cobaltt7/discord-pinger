@@ -169,5 +169,27 @@
 			"👍",
 			"👎"
 		]
+	},
+	{
+		"question": "Is cereal a soup?",
+		"reactions": [
+			"👍",
+			"👎"
+		]
+	},
+	{
+		"question": "How is the G in GIF pronounced?",
+		"reactions": [
+			":regional_indicator_h:",
+			":regional_indicator_s:"
+		],
+		"comment": ":regional_indicator_h: Hard\n:regional_indicator_s: Soft"
+	},
+	{
+		"question": "Do you use an Oxford comma?",
+		"reactions": [
+			"👍",
+			"👎"
+		]
 	}
 ]
