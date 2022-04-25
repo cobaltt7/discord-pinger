@@ -33,7 +33,3 @@ jobs:
               with:
                   commit_message: "Remove QOTD"
                   branch: ${{ github.head_ref }}
-                  commit_options: "--signoff"
-                  commit_user_name: RedGuy12
-                  commit_user_email: RedGuy12@users.noreply.github.com
-                  commit_author: RedGuy12 <RedGuy12@users.noreply.github.com>
