@@ -145,5 +145,21 @@
 			":regional_indicator_i:"
 		],
 		"comment": ":regional_indicator_m: Metric\n:regional_indicator_i: Imperial"
-	}
+	},
+	{
+		"question": "What’s your favorite winter activity?",
+		"reactions": []
+	},{
+		"question": "What’s your favorite springtime activity?",
+		"reactions": []
+	},{
+		"question": "What are you looking forwards to this summer?",
+		"reactions": []
+	},{
+		"question": "What’s your favorite thing to do in the fall?",
+		"reactions": []
+	},
+
+	
+
 ]
