@@ -35,10 +35,6 @@
 		"reactions": []
 	},
 	{
-		"question": "What is the best flavor of root beer?",
-		"reactions": []
-	},
-	{
 		"question": "What is your favorite breakfast food?",
 		"reactions": [
 			"🥚",
@@ -149,18 +145,22 @@
 	{
 		"question": "What’s your favorite winter activity?",
 		"reactions": []
-	},{
+	},
+	{
 		"question": "What’s your favorite springtime activity?",
 		"reactions": []
-	},{
+	},
+	{
 		"question": "What are you looking forwards to this summer?",
 		"reactions": []
-	},{
+	},
+	{
 		"question": "What’s your favorite thing to do in the fall?",
 		"reactions": []
-	},{"question": "How do you glue?"
-,"comment":"https://media.discordapp.net/attachments/816879000546705479/967886039744131092/IMG_3068.png"
-,	"reactions": []
-	}	
-
+	},
+	{
+		"question": "How do you glue?",
+		"comment": "https://media.discordapp.net/attachments/816879000546705479/967886039744131092/IMG_3068.png",
+		"reactions": []
+	}
 ]
