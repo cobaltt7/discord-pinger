@@ -179,5 +179,17 @@
 			"👍",
 			"👎"
 		]
+	},
+	{
+		"question": "Would you take the money?",
+		"comment": "https://media.discordapp.net/attachments/611906488511758337/968509310751604746/Screenshot_20220426-094920.png?width=608&height=585",
+		"reactions": [
+			"👍",
+			"👎"
+		]
+	},
+	{
+		"question": "Would you rather...",
+		"comment": "https://media.discordapp.net/attachments/816879000546705479/968290976445653053/IMG_3125.png?width=649&height=585"
 	}
 ]
