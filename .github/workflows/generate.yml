@@ -16,7 +16,7 @@ jobs:
                   token: ${{ secrets.TOKEN }}
 
             - name: Setup Node.JS
-              uses: actions/setup-node@v2.4.1
+              uses: actions/setup-node@v3.1.1
               with:
                   node-version: 16
                   cache: "npm"
