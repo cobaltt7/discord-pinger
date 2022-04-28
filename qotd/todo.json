@@ -191,5 +191,13 @@
 	{
 		"question": "What is your pet peeve?",
 		"reactions": []
+	},
+	{
+		"question": "Are you a morning person or a night person?",
+		"reactions": []
+	},
+	{
+		"question": "What is your favorite book or series?",
+		"reactions": []
 	}
 ]
