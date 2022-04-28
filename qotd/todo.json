@@ -90,20 +90,6 @@
 		"reactions": []
 	},
 	{
-		"question": "What's your favorite color?",
-		"reactions": [
-			"⚪",
-			"🔴",
-			"🟠",
-			"🟤",
-			"🟡",
-			"🟢",
-			"🔵",
-			"🟣",
-			"⚫"
-		]
-	},
-	{
 		"question": "What’s the weirdest text or DM you’ve received recently?",
 		"reactions": []
 	},
@@ -200,6 +186,6 @@
 		"question": "What is your favorite book or series?",
 		"reactions": []
 	},
-    "What's your most liked YouTube comment?",
-"What percentage do you usually charge your phone at?"
+	"What's your most liked YouTube comment?",
+	"What percentage do you usually charge your phone at?"
 ]
