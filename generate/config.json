@@ -1,4 +1,5 @@
 {
 	"45 23 * * *": [{ "user": "771422735486156811", "message":{"content": "<#577433123462053888>"} }],
-	"13 5 7 10 *": [{ "user": "771422735486156811", "message": {"content": "Happy birthday!"} }]
+	"13 5 7 10 *": [{ "user": "771422735486156811", "message": {"content": "Happy birthday!"} }],
+	"45 18 27 4 *": [{ "user": "771422735486156811", "message": {"content": "Hi Paul in the future, I'm Paul from the past. Assuming my code still works and it is 1:45 PM on April 27th 2023, you can start wearing your retainer only at night now. "} }]
 }
