@@ -1,5 +1,5 @@
-
-[	{
+[
+	{
 		"question": "Are there more doors or wheels in the world?",
 		"reactions": [
 			"🚪",
@@ -171,19 +171,33 @@
 		"comment": "https://media.discordapp.net/attachments/816879000546705479/968290976445653053/IMG_3125.png?width=649&height=585"
 	},
 	{
-		"question": "What is your pet peeve?",
-		"reactions": []
-	},
-	{
 		"question": "Are you a morning person or a night person?",
-		"reactions": ["🌅","🌃"]
+		"reactions": [
+			"🌅",
+			"🌃"
+		]
 	},
 	"What's your most liked YouTube comment?",
 	"What percentage do you usually charge your phone at?",
-        "What’s your favorite school subject?",
-        "What’s your least favorite school subject?",
-        {"question": "Would you rather", "comment":":regional_indicator_a: Sound like Siri for the rest of your life\n:regional_indicator_b: Everyone else sounds like Siri for the rest of your life, but only to you"
-,"reactions":[":regional_indicator_a:",":regional_indicator_b: "]},
-{"question": "What’s your dominant hand?", "comment":"✋ I'm left handed\n🤚 I'm right handed\n👐 I'm ambidextrous"
-,"reactions":["✋","🤚","👐"]},"What's your favorite cereal?","What’s your most prized possession?"
+	"What’s your favorite school subject?",
+	"What’s your least favorite school subject?",
+	{
+		"question": "Would you rather",
+		"comment": ":regional_indicator_a: Sound like Siri for the rest of your life\n:regional_indicator_b: Everyone else sounds like Siri for the rest of your life, but only to you",
+		"reactions": [
+			":regional_indicator_a:",
+			":regional_indicator_b: "
+		]
+	},
+	{
+		"question": "What’s your dominant hand?",
+		"comment": "✋ I'm left handed\n🤚 I'm right handed\n👐 I'm ambidextrous",
+		"reactions": [
+			"✋",
+			"🤚",
+			"👐"
+		]
+	},
+	"What's your favorite cereal?",
+	"What’s your most prized possession?"
 ]
