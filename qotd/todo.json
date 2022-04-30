@@ -178,10 +178,6 @@
 		"question": "Are you a morning person or a night person?",
 		"reactions": ["🌅","🌃"]
 	},
-	{
-		"question": "What is your favorite book or series?",
-		"reactions": []
-	},
 	"What's your most liked YouTube comment?",
 	"What percentage do you usually charge your phone at?",
         "What’s your favorite school subject?",
