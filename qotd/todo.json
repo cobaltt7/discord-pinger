@@ -181,15 +181,6 @@
 			":regional_indicator_b: "
 		]
 	},
-	{
-		"question": "What’s your dominant hand?",
-		"comment": "✋ I'm left handed\n🤚 I'm right handed\n👐 I'm ambidextrous",
-		"reactions": [
-			"✋",
-			"🤚",
-			"👐"
-		]
-	},
 	"What's your favorite cereal?",
 	"What’s your most prized possession?"
 ]
