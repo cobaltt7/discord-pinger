@@ -90,21 +90,6 @@
 		"reactions": []
 	},
 	{
-		"question": "Which superpower do you want the most?",
-		"reactions": [
-			"🌀",
-			":air:",
-			"📖",
-			"🙌",
-			"👀",
-			"💬",
-			"🕊",
-			"🏃🏻",
-			"❓"
-		],
-		"comment": "🌀 Teleportation\n:air: Invisibility\n📖 Mind reading (including those of animals)\n🙌 Telekinesis\n👀 X-ray vision\n💬 Telepathy\n🕊 Flight\n🏃🏻 Super-speed\n❓ Other"
-	},
-	{
 		"question": "Which system of measurement do you prefer, Metric or Imperial?",
 		"reactions": [
 			":regional_indicator_m:",
