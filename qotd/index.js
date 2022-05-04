@@ -26,7 +26,7 @@ if(chosen.publish??true)await msg.crosspost();
 	}
 	await msg.startThread({
 			autoArchiveDuration: 1_440, // 24 hours
-			name: chosen.question
+			name: chosen.question||chosen
 		});
 await	Discord.destroy();
 })
