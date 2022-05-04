@@ -144,6 +144,13 @@
 		]
 	},
 	{
+		"question": "Do you use Discord compact mode?",
+		"reactions": [
+			"👍",
+			"👎"
+		]
+	},
+	{
 		"question": "Would you rather...",
 		"comment": "https://media.discordapp.net/attachments/816879000546705479/968290976445653053/IMG_3125.png?width=649&height=585"
 	},
@@ -166,5 +173,41 @@
 			":regional_indicator_b: "
 		]
 	},
-	"What’s your most prized possession?"
+	"What’s your most prized possession?", "What is one thing you would add to Discord if you could?", "Share your most used emojis","What are your favorite custom emotes?", "What vacations do you have coming up?","What would you get with 3 wishes?","Who is your favorite YouTuber?","What song is currently stuck in your head?",	{
+		"question": "Cats or dogs?",
+		"reactions": [
+			"🐈",
+			"🐕"
+		]
+	},	{
+		"question": "Have you ever had a lucid dream?",
+		"reactions": [
+			"👍",
+			"👎"
+		]
+	},	{
+		"question": "Do you swear IRL?",
+		"reactions": [
+			"👍",
+			"👎"
+		]
+	},	{
+		"question": "Do you have a crush?",
+		"reactions": [
+			"👍",
+			"👎"
+		],"comment":"😳"
+	},	{
+		"question": "Do you use light mode or dark mode? (not on Discord)",
+		"reactions": [
+			"💡",
+			"🕶"
+		]
+	},	{
+		"question": "What Discord color theme do you use?",
+		"reactions": [
+			"🔦",
+			"🕶","⚫️","❓️"
+		],"comment":"🔦 Light mode\n🕶 Dark mode\n⚫️ OLED Dark mode\n❓️ Other"
+	}
 ]
