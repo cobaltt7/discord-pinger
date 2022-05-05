@@ -137,13 +137,6 @@
 		"comment": ":regional_indicator_h: Hard\n:regional_indicator_s: Soft"
 	},
 	{
-		"question": "Do you use an Oxford comma?",
-		"reactions": [
-			"👍",
-			"👎"
-		]
-	},
-	{
 		"question": "Do you use Discord compact mode?",
 		"reactions": [
 			"👍",
@@ -173,41 +166,58 @@
 			":regional_indicator_b: "
 		]
 	},
-	"What’s your most prized possession?", "What is one thing you would add to Discord if you could?", "Share your most used emojis","What are your favorite custom emotes?", "What vacations do you have coming up?","What would you get with 3 wishes?","Who is your favorite YouTuber?","What song is currently stuck in your head?",	{
+	"What’s your most prized possession?",
+	"What is one thing you would add to Discord if you could?",
+	"Share your most used emojis",
+	"What are your favorite custom emotes?",
+	"What vacations do you have coming up?",
+	"What would you get with 3 wishes?",
+	"Who is your favorite YouTuber?",
+	"What song is currently stuck in your head?",
+	{
 		"question": "Cats or dogs?",
 		"reactions": [
 			"🐈",
 			"🐕"
 		]
-	},	{
+	},
+	{
 		"question": "Have you ever had a lucid dream?",
 		"reactions": [
 			"👍",
 			"👎"
 		]
-	},	{
+	},
+	{
 		"question": "Do you swear IRL?",
 		"reactions": [
 			"👍",
 			"👎"
 		]
-	},	{
+	},
+	{
 		"question": "Do you have a crush?",
 		"reactions": [
 			"👍",
 			"👎"
-		],"comment":"😳"
-	},	{
+		],
+		"comment": "😳"
+	},
+	{
 		"question": "Do you use light mode or dark mode? (not on Discord)",
 		"reactions": [
 			"💡",
 			"🕶"
 		]
-	},	{
+	},
+	{
 		"question": "What Discord color theme do you use?",
 		"reactions": [
 			"🔦",
-			"🕶","⚫️","❓️"
-		],"comment":"🔦 Light mode\n🕶 Dark mode\n⚫️ OLED Dark mode\n❓️ Other"
+			"🕶",
+			"⚫️",
+			"❓️"
+		],
+		"comment": "🔦 Light mode\n🕶 Dark mode\n⚫️ OLED Dark mode\n❓️ Other"
 	}
 ]
