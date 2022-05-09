@@ -89,14 +89,7 @@
 		"question": "What’s the weirdest text or DM you’ve received recently?",
 		"reactions": []
 	},
-	{
-		"question": "Which system of measurement do you prefer, Metric or Imperial?",
-		"reactions": [
-			":regional_indicator_m:",
-			":regional_indicator_i:"
-		],
-		"comment": ":regional_indicator_m: Metric\n:regional_indicator_i: Imperial"
-	},
+	
 	{
 		"question": "What’s your favorite winter activity?",
 		"reactions": []
