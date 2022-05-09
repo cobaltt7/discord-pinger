@@ -120,8 +120,8 @@
 	{
 		"question": "How is the G in GIF pronounced?",
 		"reactions": [
-			":regional_indicator_h:",
-			":regional_indicator_s:"
+			"🇭",
+			"🇸"
 		],
 		"comment": ":regional_indicator_h: Hard\n:regional_indicator_s: Soft"
 	},
@@ -146,14 +146,7 @@
 	"What's your most liked YouTube comment?",
 	"What percentage do you usually charge your phone at?",
 	"What’s your least favorite school subject?",
-	{
-		"question": "Would you rather",
-		"comment": ":regional_indicator_a: Sound like Siri for the rest of your life\n:regional_indicator_b: Everyone else sounds like Siri for the rest of your life, but only to you",
-		"reactions": [
-			":regional_indicator_a:",
-			":regional_indicator_b: "
-		]
-	},
+	
 	"What’s your most prized possession?",
 	"What is one thing you would add to Discord if you could?",
 	"Share your most used emojis",
