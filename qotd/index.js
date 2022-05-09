@@ -19,7 +19,7 @@ config.splice(index, 1);
 Discord.once("ready", async () => {
 	console.log(`Connected to Discord with ID`, Discord.application?.id);
 const msg=	await	(await Discord.channels.fetch("965682181169086474"))
-				?.send({content: "<@&965682387533070466>\n**"+(chosen.question||chosen)+"**"+(chosen.comment?"\n"+chosen.comment:"")})
+				?.send({content: "no double ping <965682387533070466>\n**"+(chosen.question||chosen)+"**"+(chosen.comment?"\n"+chosen.comment:"")})
 if(chosen.publish??true)await msg.crosspost();
 	for (const reaction of (chosen.reactions||[])) {
 		await msg.react(reaction);
