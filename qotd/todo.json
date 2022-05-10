@@ -7,15 +7,6 @@
 		]
 	},
 	{
-		"question": "Do you poor the milk or the cereal first?",
-		"reactions": [
-			"🥛",
-			"🥣",
-			"🚫"
-		],
-		"comment": "🥛 Milk\n🥣 Cereal\n🚫 I don't eat cereal"
-	},
-	{
 		"question": "If a horse walked up to you, randomly spoke one sentence, and then never spoke again, what is the most unsettling thing it could say?",
 		"reactions": []
 	},
@@ -89,7 +80,6 @@
 		"question": "What’s the weirdest text or DM you’ve received recently?",
 		"reactions": []
 	},
-	
 	{
 		"question": "What’s your favorite winter activity?",
 		"reactions": []
@@ -146,7 +136,6 @@
 	"What's your most liked YouTube comment?",
 	"What percentage do you usually charge your phone at?",
 	"What’s your least favorite school subject?",
-	
 	"What’s your most prized possession?",
 	"What is one thing you would add to Discord if you could?",
 	"Share your most used emojis",
