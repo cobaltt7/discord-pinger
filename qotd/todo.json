@@ -159,13 +159,6 @@
 		"comment": "😳"
 	},
 	{
-		"question": "Do you use light mode or dark mode? (not on Discord)",
-		"reactions": [
-			"💡",
-			"🕶"
-		]
-	},
-	{
 		"question": "What Discord color theme do you use?",
 		"reactions": [
 			"🔦",
