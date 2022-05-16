@@ -136,13 +136,6 @@
 	"Who is your favorite YouTuber?",
 	"What song is currently stuck in your head?",
 	{
-		"question": "Cats or dogs?",
-		"reactions": [
-			"🐈",
-			"🐕"
-		]
-	},
-	{
 		"question": "Have you ever had a lucid dream?",
 		"reactions": [
 			"👍",
