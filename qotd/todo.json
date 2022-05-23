@@ -131,15 +131,5 @@
 			"👎"
 		],
 		"comment": "😳"
-	},
-	{
-		"question": "What Discord color theme do you use?",
-		"reactions": [
-			"🔦",
-			"🕶",
-			"⚫️",
-			"❓️"
-		],
-		"comment": "🔦 Light mode\n🕶 Dark mode\n⚫️ OLED Dark mode\n❓️ Other"
 	}
 ]
