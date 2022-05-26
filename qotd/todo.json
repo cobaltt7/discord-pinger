@@ -26,22 +26,6 @@
 		"reactions": []
 	},
 	{
-		"question": "What is your favorite breakfast food?",
-		"reactions": [
-			"🥚",
-			"🥞",
-			"🧇",
-			"🇫🇷",
-			"🥓",
-			"🍩",
-			"🥯",
-			"🍞",
-			"🥣",
-			"❓"
-		],
-		"comment": "🥚 Eggs\n🥞 Pancakes\n🧇 Waffles\n🇫🇷 French toast\n🥓 Bacon\n🍩 Doughnuts\n🥯 Bagels\n🍞 Toast\n🥣 Cereal\n❓ Other"
-	},
-	{
 		"question": "What is your favorite type of chocolate?",
 		"reactions": [
 			"🥛",
