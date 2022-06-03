@@ -61,13 +61,6 @@
 		"comment": ":regional_indicator_h: Hard\n:regional_indicator_s: Soft"
 	},
 	{
-		"question": "Do you use Discord compact mode?",
-		"reactions": [
-			"👍",
-			"👎"
-		]
-	},
-	{
 		"question": "Would you rather...",
 		"comment": "https://media.discordapp.net/attachments/816879000546705479/968290976445653053/IMG_3125.png?width=649&height=585"
 	},
