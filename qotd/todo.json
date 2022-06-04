@@ -18,10 +18,6 @@
 		"reactions": []
 	},
 	{
-		"question": "What hobbies do you have?",
-		"reactions": []
-	},
-	{
 		"question": "What is your favorite type of chocolate?",
 		"reactions": [
 			"🥛",
