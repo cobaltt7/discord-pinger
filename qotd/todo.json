@@ -59,12 +59,5 @@
 			"🌃"
 		]
 	},
-	"What are your favorite custom emotes?",
-	{
-		"question": "Have you ever had a lucid dream?",
-		"reactions": [
-			"👍",
-			"👎"
-		]
-	}
+	"What are your favorite custom emotes?"
 ]
