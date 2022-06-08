@@ -1,12 +1,5 @@
 [
 	{
-		"question": "Are there more doors or wheels in the world?",
-		"reactions": [
-			"🚪",
-			"⚙"
-		]
-	},
-	{
 		"question": "Is a hotdog a sandwich?",
 		"reactions": [
 			"👍",
