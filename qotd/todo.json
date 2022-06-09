@@ -7,16 +7,6 @@
 		]
 	},
 	{
-		"question": "What is your favorite type of chocolate?",
-		"reactions": [
-			"🥛",
-			"🌑",
-			"⬜",
-			"🚫"
-		],
-		"comment": "🥛 Milk\n🌑 Dark\n⬜ White\n🚫 I don't like chocolate"
-	},
-	{
 		"question": "What platorm do you usually use Discord on?",
 		"reactions": [
 			"💻",
