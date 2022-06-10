@@ -7,15 +7,6 @@
 		]
 	},
 	{
-		"question": "What platorm do you usually use Discord on?",
-		"reactions": [
-			"💻",
-			"🌐",
-			"📱"
-		],
-		"comment": "💻 Desktop app\n🌐 Website\n📱 Mobile"
-	},
-	{
 		"question": "What random GIFs do you have laying around?",
 		"reactions": []
 	},
