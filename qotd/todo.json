@@ -22,12 +22,5 @@
 		],
 		"comment": ":regional_indicator_h: Hard\n:regional_indicator_s: Soft"
 	},
-	{
-		"question": "Are you a morning person or a night person?",
-		"reactions": [
-			"🌅",
-			"🌃"
-		]
-	},
 	"What are your favorite custom emotes?"
 ]
