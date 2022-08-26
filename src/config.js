@@ -31,14 +31,14 @@ export default {
 	"0 12 * * *": async () => {
 		const dir = path.dirname(fileURLToPath(import.meta.url));
 		const qotds = JSON.parse(
-			await fileSystem.readFile(path.resolve(dir, "./todo.json"), "utf-8"),
+			await fileSystem.readFile(path.resolve(dir, "./qotds.json"), "utf-8"),
 		);
 
 		const index = Math.floor(Math.random() * qotds.length);
 		const qotd = qotds[index];
 		qotds.splice(index, 1);
 		await fileSystem.writeFile(
-			path.resolve(dir, "./todo.json"),
+			path.resolve(dir, "./qotds.json"),
 			JSON.stringify(qotds, null, "	"),
 			"utf8",
 		);
