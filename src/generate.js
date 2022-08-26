@@ -8,11 +8,11 @@ mustache.tags = ["[[", "]]"];
 
 const dir = path.dirname(fileURLToPath(import.meta.url));
 
-for (const file of await fileSystem.readdir(path.resolve(dir, `../github/workflows`)))
-	if (!file.startsWith("__")) fileSystem.unlink(path.resolve(dir, `../github/workflows`, file));
+for (const file of await fileSystem.readdir(path.resolve(dir, `../.github/workflows`)))
+	if (!file.startsWith("__")) fileSystem.unlink(path.resolve(dir, `../.github/workflows`, file));
 
 const template = await fileSystem.readFile(
-	path.resolve(dir, "./github/workflows/_template.yml"),
+	path.resolve(dir, "./.github/workflows/_template.yml"),
 	"utf8",
 );
 
