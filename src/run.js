@@ -8,8 +8,6 @@ process
 	.on("warning", (err) => logError(err, "warning"));
 
 const Discord = new Client({
-	allowedMentions: { parse: ["users"], repliedUser: true },
-
 	intents: [
 		GatewayIntentBits.Guilds,
 		GatewayIntentBits.GuildMembers,
