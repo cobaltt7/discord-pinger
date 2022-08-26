@@ -1,0 +1,99 @@
+[
+	{
+		"question": "Which is your favorite modern version of Windows?",
+		"reactions": ["8️⃣", "9️⃣", "🔟", "<:eleven:1012812827381207101>"]
+	},
+	{
+		"question": "Which phone OS is better?",
+		"reactions": ["🍎", "🤖"],
+		"comment": "🍎 Apple\n🤖 Android"
+	},
+	{
+		"question": "Which desktop OS is best?",
+		"reactions": ["🪟", "🍎", "👨‍💻", "🇨"],
+		"comment": "🪟 Windows\n🍎 Mac\n👨‍💻 Linux\n🇨 ChromeOS"
+	},
+	{
+		"question": "How do you use emojis in Discord?",
+		"reactions": ["🖱", "⌨"],
+		"comment": "🖱 I select them from the menu\n⌨ I type out their names"
+	},
+	{
+		"question": "Do you sleep under a blanket?",
+		"reactions": ["✔", "❌"]
+	},
+	{
+		"question": "Do you sleep with socks on?",
+		"reactions": ["✔", "❌"]
+	},
+	{
+		"question": "Is 'sus' still funny?",
+		"reactions": ["✔", "❌"]
+	},
+	{
+		"question": "What browser do you use?",
+		"reactions": ["🇨", "🇫", "🇸"],
+		"comment": "🇨hromium (including Edge, Opera, Brave, etc)\n🇫irefox\n🇸afari"
+	},
+	{
+		"question": "Toilet paper.",
+		"reactions": ["⬆", "⬇"],
+		"comment": "⬆ Over\n⬇ Under"
+	},
+	{
+		"question": "What is gelatin called?",
+		"reactions": ["🇴", "🇾"],
+		"comment": "Jell🇴 or Jell🇾?"
+	},
+	{
+		"question": "What kind of sunscreen do you prefer?",
+		"reactions": ["🇸", "🇱"],
+		"comment": "🇸pray or 🇱otion?"
+	},
+	{
+		"question": "Do you prefer to read books or watch movies?",
+		"reactions": ["📖", "🎥"]
+	},
+	{
+		"question": "How do you like carrots?",
+		"reactions": ["🍳", "🥕", "❌"],
+		"comment": "🍳 Cooked\n🥕 Raw\n❌ I don't"
+	},
+	{
+		"question": "Which type of liquorice is better?",
+		"reactions": ["🟥", "⬛"]
+	},
+	{
+		"question": "One has to go.",
+		"reactions": ["<:discord:1012817930905464983>", "<:youtube:1012818352776945814>"]
+	},
+	"What is your go-to order at Jimmy John's?",
+	{
+		"question": "Which is the better sandwich shop?",
+		"reactions": ["<:jj:1012818752011763742>", "<:subway:1012819045009063986>"]
+	},
+	{
+		"question": "Do you often skip meals? Which one(s)?",
+		"reactions": ["🥓", "🥪", "🍽", "❌"],
+		"comment": "🥓 Breakfast\n🥪 Lunch\n🍽 Dinner\n❌ No"
+	},
+	{
+		"question": "One must go",
+		"reactions": ["🥄", "<:fork:1012819727929839666>"],
+		"comment": "(pretend sporks don't exist)"
+	},
+	"https://pbs.twimg.com/media/FUNRLmmX0AUzBL5?format=jpg&name=small",
+	"What would you say if you could say something to everyone on Earth simultaneously?",
+	{
+		"question": "Send the first thing you think of when you read the following word:",
+		"comment": "||food||"
+	},
+	{
+		"question": "Where do you have your computer taskbar?",
+		"reactions": ["⬆", "➡", "⬇", "⬅"]
+	},
+	{
+		"question": "Do you prefer 12 or 24 hour time?",
+		"reactions": ["<:twelve:1012821785781219468>", "<:twentyfour:1012821858917294101>"]
+	}
+]

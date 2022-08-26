@@ -18,14 +18,14 @@ jobs:
             - name: Setup Node.JS
               uses: actions/setup-node@v3.3.0
               with:
-                  node-version: 16
+                  node-version: "16.13.0"
                   cache: "npm"
 
             - name: Install
               run: npm install
 
             - name: Generate
-              run: npm start
+              run: node src/generate.js
 
             - name: Commit
               uses: stefanzweifel/git-auto-commit-action@v4.14.1

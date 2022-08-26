@@ -1,37 +1,25 @@
 {
+	"name": "@redguy12/discord-pinger",
+	"version": "0.0.0",
 	"private": true,
-	"name": "discord-pinger",
-	"version": "1.0.0",
-	"description": "Sends you regular DMs",
 	"license": "MIT",
-	"author": "Paul Reid",
-	"homepage": "https://github.com/RedGuy12/discord-pinger#readme",
-	"bugs": {
-		"url": "https://github.com/RedGuy12/discord-pinger/issues"
-	},
 	"type": "module",
 	"main": "generate/index.js",
 	"scripts": {
-		"start": "node . --trace-warnings --harmony"
+		"format": "prettier --write \"**\" --ignore-unknown",
+		"types": "tsc --project jsconfig.json"
 	},
+	"prettier": "@redguy12/prettier-config",
 	"dependencies": {
-		"discord.js": "13.2.0",
-		"dotenv": "10.0.0"
-	},
-	"keywords": [
-		"discord",
-		"dm",
-		"scheduled",
-		"reminder"
-	],
-	"engines": {
-		"node": ">=16.6.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/RedGuy12/discord-pinger.git"
+		"discord.js": "14.2.0"
 	},
 	"devDependencies": {
-		"mustache": "4.2.0"
+		"@redguy12/prettier-config": "2.0.0",
+		"@types/mustache": "4.2.1",
+		"mustache": "4.2.0",
+		"prettier": "2.7.1"
+	},
+	"engines": {
+		"node": "16.13.0"
 	}
 }
