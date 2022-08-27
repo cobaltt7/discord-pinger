@@ -18,14 +18,6 @@
 		"comment": "🪟 Windows\n🍎 Mac\n👨‍💻 Linux\n🇨 ChromeOS"
 	},
 	{
-		"question": "How do you use emojis in Discord?",
-		"reactions": [
-			"🖱",
-			"⌨"
-		],
-		"comment": "🖱 I select them from the menu\n⌨ I type out their names"
-	},
-	{
 		"question": "Do you sleep under a blanket?",
 		"reactions": [
 			"✔",
