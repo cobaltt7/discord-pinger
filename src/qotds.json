@@ -56,14 +56,6 @@
 		"comment": "⬆ Over\n⬇ Under"
 	},
 	{
-		"question": "What is gelatin called?",
-		"reactions": [
-			"🇴",
-			"🇾"
-		],
-		"comment": "Jell🇴 or Jell🇾?"
-	},
-	{
 		"question": "Do you prefer to read books or watch movies?",
 		"reactions": [
 			"📖",
