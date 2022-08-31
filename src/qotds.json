@@ -80,13 +80,6 @@
 	},
 	"What is your go-to order at Jimmy John's?",
 	{
-		"question": "Which is the better sandwich shop?",
-		"reactions": [
-			"<:jj:1012818752011763742>",
-			"<:subway:1012819045009063986>"
-		]
-	},
-	{
 		"question": "Do you often skip meals? Which one(s)?",
 		"reactions": [
 			"🥓",
