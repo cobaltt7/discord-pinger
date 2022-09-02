@@ -82,14 +82,6 @@
 		],
 		"comment": "🥓 Breakfast\n🥪 Lunch\n🍽 Dinner\n❌ No"
 	},
-	{
-		"question": "One must go",
-		"reactions": [
-			"🥄",
-			"<:fork:1012819727929839666>"
-		],
-		"comment": "(pretend sporks don't exist)"
-	},
 	"https://pbs.twimg.com/media/FUNRLmmX0AUzBL5?format=jpg&name=small",
 	"What would you say if you could say something to everyone on Earth simultaneously?",
 	{
