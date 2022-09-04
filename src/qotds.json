@@ -65,13 +65,6 @@
 		"comment": "🍳 Cooked\n🥕 Raw\n❌ I don't"
 	},
 	{
-		"question": "One has to go.",
-		"reactions": [
-			"<:discord:1012817930905464983>",
-			"<:youtube:1012818352776945814>"
-		]
-	},
-	{
 		"question": "Do you often skip meals? Which one(s)?",
 		"reactions": [
 			"🥓",
