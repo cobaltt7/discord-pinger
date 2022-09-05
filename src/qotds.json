@@ -64,16 +64,6 @@
 		],
 		"comment": "🍳 Cooked\n🥕 Raw\n❌ I don't"
 	},
-	{
-		"question": "Do you often skip meals? Which one(s)?",
-		"reactions": [
-			"🥓",
-			"🥪",
-			"🍽",
-			"❌"
-		],
-		"comment": "🥓 Breakfast\n🥪 Lunch\n🍽 Dinner\n❌ No"
-	},
 	"https://pbs.twimg.com/media/FUNRLmmX0AUzBL5?format=jpg&name=small",
 	"What would you say if you could say something to everyone on Earth simultaneously?",
 	{
