@@ -71,15 +71,6 @@
 		"comment": "||food||"
 	},
 	{
-		"question": "Where do you have your computer taskbar?",
-		"reactions": [
-			"⬆",
-			"➡",
-			"⬇",
-			"⬅"
-		]
-	},
-	{
 		"question": "Do you prefer 12 or 24 hour time?",
 		"reactions": [
 			"<:twelve:1012821785781219468>",
