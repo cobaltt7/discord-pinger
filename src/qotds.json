@@ -67,10 +67,6 @@
 	"https://pbs.twimg.com/media/FUNRLmmX0AUzBL5?format=jpg&name=small",
 	"What would you say if you could say something to everyone on Earth simultaneously?",
 	{
-		"question": "Send the first thing you think of when you read the following word:",
-		"comment": "||food||"
-	},
-	{
 		"question": "Do you prefer 12 or 24 hour time?",
 		"reactions": [
 			"<:twelve:1012821785781219468>",
