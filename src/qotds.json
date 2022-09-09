@@ -1,13 +1,5 @@
 [
 	{
-		"question": "Which phone OS is better?",
-		"reactions": [
-			"🍎",
-			"🤖"
-		],
-		"comment": "🍎 Apple\n🤖 Android"
-	},
-	{
 		"question": "Which desktop OS is best?",
 		"reactions": [
 			"🪟",
