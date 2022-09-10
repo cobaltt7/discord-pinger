@@ -17,15 +17,6 @@
 		]
 	},
 	{
-		"question": "What browser do you use?",
-		"reactions": [
-			"🇨",
-			"🇫",
-			"🇸"
-		],
-		"comment": "🇨hromium (including Edge, Opera, Brave, etc)\n🇫irefox\n🇸afari"
-	},
-	{
 		"question": "Toilet paper.",
 		"reactions": [
 			"⬆",
