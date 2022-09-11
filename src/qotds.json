@@ -17,14 +17,6 @@
 		]
 	},
 	{
-		"question": "Toilet paper.",
-		"reactions": [
-			"⬆",
-			"⬇"
-		],
-		"comment": "⬆ Over\n⬇ Under"
-	},
-	{
 		"question": "Do you prefer to read books or watch movies?",
 		"reactions": [
 			"📖",
