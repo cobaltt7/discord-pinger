@@ -33,12 +33,5 @@
 		"comment": "🍳 Cooked\n🥕 Raw\n❌ I don't"
 	},
 	"https://pbs.twimg.com/media/FUNRLmmX0AUzBL5?format=jpg&name=small",
-	"What would you say if you could say something to everyone on Earth simultaneously?",
-	{
-		"question": "Do you prefer 12 or 24 hour time?",
-		"reactions": [
-			"<:twelve:1012821785781219468>",
-			"<:twentyfour:1012821858917294101>"
-		]
-	}
+	"What would you say if you could say something to everyone on Earth simultaneously?"
 ]
