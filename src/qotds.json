@@ -10,13 +10,6 @@
 		"comment": "🪟 Windows\n🍎 Mac\n👨‍💻 Linux\n🇨 ChromeOS"
 	},
 	{
-		"question": "Do you sleep under a blanket?",
-		"reactions": [
-			"✔",
-			"❌"
-		]
-	},
-	{
 		"question": "Do you prefer to read books or watch movies?",
 		"reactions": [
 			"📖",
