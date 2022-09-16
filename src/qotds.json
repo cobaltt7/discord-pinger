@@ -15,14 +15,5 @@
 			"📖",
 			"🎥"
 		]
-	},
-	{
-		"question": "How do you like carrots?",
-		"reactions": [
-			"🍳",
-			"🥕",
-			"❌"
-		],
-		"comment": "🍳 Cooked\n🥕 Raw\n❌ I don't"
 	}
 ]
