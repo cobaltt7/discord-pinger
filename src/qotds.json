@@ -1,15 +1,5 @@
 [
 	{
-		"question": "Which desktop OS is best?",
-		"reactions": [
-			"🪟",
-			"🍎",
-			"👨‍💻",
-			"🇨"
-		],
-		"comment": "🪟 Windows\n🍎 Mac\n👨‍💻 Linux\n🇨 ChromeOS"
-	},
-	{
 		"question": "Do you prefer to read books or watch movies?",
 		"reactions": [
 			"📖",
