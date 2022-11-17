@@ -27,7 +27,7 @@ export default {
 			channel: "883922462704807956",
 		},
 	],
-	"45 23 * * *": () => [{ message: "<#577433123462053888>", user: "771422735486156811" }],
+	"45 11 * * *": () => [{ message: "<@771422735486156811>", channel: "901225231014821968" }],
 	"0 12 * * *": async () => {
 		const dir = path.dirname(fileURLToPath(import.meta.url));
 		const qotds = JSON.parse(
