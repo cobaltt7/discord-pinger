@@ -1,11 +1,11 @@
-name: SCHEDULED WORKFLOW 50 0 * * *
+name: SCHEDULED WORKFLOW 0 12 * * *
 on:
     schedule:
-        - cron: "50 0 * * *"
+        - cron: "0 12 * * *"
     workflow_dispatch:
 
 env:
-    cron: "50 0 * * *"
+    cron: "0 12 * * *"
     token: ${{ secrets.BOT_TOKEN }}
 
 jobs:
@@ -35,5 +35,5 @@ jobs:
             - name: Commit
               uses: stefanzweifel/git-auto-commit-action@v4.16.0
               with:
-                  commit_message: "Updates from 50 0 * * *"
+                  commit_message: "Updates from 0 12 * * *"
                   branch: ${{ github.head_ref }}
