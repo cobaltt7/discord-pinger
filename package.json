@@ -17,7 +17,7 @@
 		"@redguy12/prettier-config": "2.0.0",
 		"@types/mustache": "4.2.1",
 		"mustache": "4.2.0",
-		"prettier": "2.7.1"
+		"prettier": "2.8.6"
 	},
 	"engines": {
 		"node": "16.13.0"
