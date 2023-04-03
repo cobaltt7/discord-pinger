@@ -11,7 +11,7 @@
 	},
 	"prettier": "@redguy12/prettier-config",
 	"dependencies": {
-		"discord.js": "14.2.0"
+		"discord.js": "14.9.0"
 	},
 	"devDependencies": {
 		"@redguy12/prettier-config": "2.0.0",
